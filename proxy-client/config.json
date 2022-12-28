@@ -1,0 +1,12 @@
+{
+  "server_addr": "10.0.9.121:5001",
+  "proxy": [
+    {
+      "name": "node1",
+      "proxy_addr": "127.0.0.1:8585",
+      "remote_port": 5003
+    }
+  ],
+  "log": true,
+  "log_path": "./"
+}
